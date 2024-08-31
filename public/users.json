@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "createdAt": "01-01-2024",
+        "updatedAt": "01-01-2024",
+        "email": "name1@email.ee",
+        "username": "name1"
+    },
+    {
+        "id": 2,
+        "createdAt": "02-01-2024",
+        "updatedAt": "02-01-2024",
+        "email": "name2@email.ee",
+        "username": "name2"
+    },
+    {
+        "id": 3,
+        "createdAt": "03-01-2024",
+        "updatedAt": "03-01-2024",
+        "email": "name3@email.ee",
+        "username": "name3"
+    }
+]

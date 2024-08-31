@@ -1,0 +1,48 @@
+@import '../../assets/styles/mixins.scss';
+@import '../../assets/styles/vars.scss';
+
+.Header {
+    position: sticky;
+    top: 0;
+
+    &__content {
+        padding: rem(8) rem(16);
+        background-color: $color_black;
+        display: flex;
+        position: relative;
+        z-index: 1;
+    }
+
+    &__NavHeader {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    &__Button {
+        position: relative;
+    }
+
+    &__ButtonSquare {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:first-of-type {
+            margin: 0 auto 0 rem(16);
+        }
+
+        svg {
+            fill: $color_white;
+        }
+
+        & + .Header__ButtonSquare {
+            margin-left: rem(16);
+        }
+    }
+}

@@ -1,0 +1,17 @@
+@import '../../assets/styles/vars.scss';
+
+.NavHeader {
+    background-color: $color_black;
+    transform: translateX(-100%);
+    transition: transform $trans_md;
+
+    &_active {
+        transform: translateX(0);
+    }
+
+    &__NavList {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+}

@@ -1,0 +1,32 @@
+@import '../../assets/styles/mixins.scss';
+@import '../../assets/styles/vars.scss';
+
+.Button {
+    border: rem(1) solid transparent;
+    padding: rem(7) rem(32);
+    font-size: rem(16);
+    line-height: 2;
+    font-family: inherit;
+    overflow: visible;
+    text-transform: none;
+    color: $color_black;
+    background-color: transparent;
+    border-radius: rem(14);
+    cursor: pointer;
+
+    &_red {
+        color: $color_white;
+        border-color: $color_red;
+        background-color: $color_red;
+    }
+
+    &_black {
+        color: $color_white;
+        border-color: $color_black;
+        background-color: $color_black;
+    }
+}
+
+a.Button {
+    text-decoration: none;
+}

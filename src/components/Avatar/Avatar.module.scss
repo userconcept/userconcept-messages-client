@@ -1,0 +1,13 @@
+@import '../../assets/styles/vars.scss';
+
+.Avatar {
+    background-color: $color_gray;
+    border-radius: 50%;
+    overflow: hidden;
+
+    svg {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}

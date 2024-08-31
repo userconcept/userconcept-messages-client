@@ -1,0 +1,10 @@
+@import '../../assets/styles/mixins.scss';
+
+.Home {
+    padding: rem(32) rem(16);
+
+    &__PostList,
+    &__PostListTest {
+        margin: rem(32) 0 0;
+    }
+}

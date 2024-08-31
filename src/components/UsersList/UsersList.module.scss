@@ -1,0 +1,14 @@
+@import '../../assets/styles/mixins.scss';
+
+.UsersList {
+    padding: 0;
+    list-style: none;
+
+    &__UsersItem {
+        margin: 0;
+
+        & + .UsersList__UsersItem {
+            margin-top: rem(16);
+        }
+    }
+}

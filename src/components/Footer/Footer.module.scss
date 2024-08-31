@@ -1,0 +1,11 @@
+@import '../../assets/styles/mixins.scss';
+@import '../../assets/styles/vars.scss';
+
+.Footer {
+    padding: rem(8) rem(16) rem(20);
+    background-color: $color_black;
+
+    &__Copyright {
+        margin-left: rem(16);
+    }
+}

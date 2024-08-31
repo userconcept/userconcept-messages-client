@@ -1,0 +1,39 @@
+@import '../../assets/styles/mixins.scss';
+@import '../../assets/styles/vars.scss';
+
+.Counter {
+    display: flex;
+    justify-content: center;
+
+    &__button,
+    &__value {
+        padding: rem(7) rem(32);
+    }
+
+    &__button {
+        border: rem(1) solid $color_black;
+        font-size: rem(16);
+        line-height: 2;
+        font-family: inherit;
+        overflow: visible;
+        text-transform: none;
+        color: $color_white;
+        background-color: $color_black;
+        cursor: pointer;
+
+        &_left {
+            border-top-left-radius: rem(14);
+            border-bottom-left-radius: rem(14);
+        }
+
+        &_right {
+            border-top-right-radius: rem(14);
+            border-bottom-right-radius: rem(14);
+        }
+    }
+
+    &__value {
+        border-top: rem(1) solid $color_black;
+        border-bottom: rem(1) solid $color_black;
+    }
+}

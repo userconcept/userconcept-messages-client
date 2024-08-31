@@ -1,0 +1,14 @@
+@import '../../assets/styles/mixins.scss';
+
+.PostList {
+    padding: 0;
+    list-style: none;
+
+    &__PostItem {
+        margin: 0;
+
+        & + .PostList__PostItem {
+            margin-top: rem(16);
+        }
+    }
+}

@@ -1,0 +1,13 @@
+@import '../../assets/styles/mixins.scss';
+@import '../../assets/styles/vars.scss';
+
+.UsersItem {
+    border: rem(1) solid $color_black;
+    padding: rem(16);
+    border-radius: rem(14);
+
+    &__Title,
+    &__Text {
+        margin: 0;
+    }
+}

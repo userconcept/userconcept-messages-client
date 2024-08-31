@@ -1,0 +1,16 @@
+@import '../../assets/styles/mixins.scss';
+
+.LoginForm {
+
+    &__FormItem {
+
+        & + .LoginForm__FormItem {
+            margin-top: rem(16);
+        }
+    }
+
+    &__Button {
+        width: 100%;
+        margin-top: rem(32);
+    }
+}

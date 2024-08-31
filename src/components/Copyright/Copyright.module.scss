@@ -1,0 +1,28 @@
+@import '../../assets/styles/mixins.scss';
+@import '../../assets/styles/vars.scss';
+
+.Copyright {
+    display: flex;
+
+    &__symbol,
+    &__link,
+    &__year {
+        color: $color_white;
+    }
+
+    &__symbol,
+    &__year {
+        padding: rem(8) 0;
+    }
+
+    &__link {
+        padding: rem(8) rem(16);
+
+        &:hover {
+
+            @include media_1200_min_width {
+                text-decoration: none;
+            }
+        }
+    }
+}

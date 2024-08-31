@@ -1,0 +1,11 @@
+.FormItem {
+
+    &__Label {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    &__Input {
+        width: 100%;
+    }
+}

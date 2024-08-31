@@ -1,0 +1,15 @@
+@import '../../assets/styles/mixins.scss';
+@import '../../assets/styles/vars.scss';
+
+.Input {
+    outline: none;
+    border: rem(1) solid $color_black;
+    padding: rem(7) rem(16);
+    font-size: rem(16);
+    line-height: 2;
+    font-family: inherit;
+    overflow: visible;
+    color: $color_black;
+    background-color: transparent;
+    border-radius: rem(14);
+}

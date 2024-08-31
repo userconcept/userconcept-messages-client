@@ -1,0 +1,26 @@
+@import '../../assets/styles/mixins.scss';
+@import '../../assets/styles/vars.scss';
+
+.ButtonSquare {
+    width: rem(48);
+    height: rem(48);
+    border: rem(1) solid $color_white;
+    padding: 0;
+    font-size: 0;
+    font-family: inherit;
+    overflow: visible;
+    text-transform: none;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+
+    svg {
+        display: block;
+        width: rem(24);
+        height: rem(24);
+    }
+}
+
+a.ButtonSquare {
+    text-decoration: none;
+}

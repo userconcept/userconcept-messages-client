@@ -1,0 +1,23 @@
+@import '../../assets/styles/mixins.scss';
+
+.SignUp {
+    padding: rem(32) rem(16);
+
+    &__Title {
+        margin: 0;
+    }
+
+    &__SignUpForm {
+        margin-top: rem(16);
+    }
+
+    &__Text {
+        margin: rem(32) 0 0;
+        text-align: right;
+    }
+
+    &__TextLink {
+        display: table;
+        margin-left: auto;
+    }
+}

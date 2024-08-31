@@ -1,0 +1,13 @@
+@import '../../assets/styles/mixins.scss';
+
+.Profile {
+    padding: rem(32) rem(16);
+
+    &__Title {
+        margin: 0;
+    }
+
+    &__ProfileForm {
+        margin-top: rem(24);
+    }
+}

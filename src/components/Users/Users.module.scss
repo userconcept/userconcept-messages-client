@@ -1,0 +1,13 @@
+@import '../../assets/styles/mixins.scss';
+
+.Users {
+    padding: rem(32) rem(16);
+
+    &__Title {
+        margin: 0;
+    }
+
+    &__UsersList {
+        margin: rem(32) 0 0;
+    }
+}
